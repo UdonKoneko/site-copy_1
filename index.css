@@ -1,0 +1,10 @@
+main {
+  padding: 0px 150px;
+}
+
+header > button {
+  background-color: #444444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
