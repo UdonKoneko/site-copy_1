@@ -8,3 +8,17 @@ header > button {
   border: none;
   padding: 5px 10px;
 }
+
+.header-link {
+  float: right;
+}
+
+.header-link > a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.header-bicycle {
+  margin-left: 25px;
+}
