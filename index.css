@@ -32,3 +32,15 @@ body {
   width: 100%;
   margin-top: 20px;
 }
+
+body section {
+  margin: 60px;
+  max-width: 960px;
+  text-align: center;
+}
+
+body section h2 {
+  border-bottom: 1px solid #444444;
+  padding-bottom: 8px;
+  display: inline;
+}
