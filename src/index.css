@@ -83,3 +83,8 @@ body section h2 {
 .Bicycle-item_title {
   font-weight: bold;
 }
+
+footer {
+  text-align: center;
+  font-size: small;
+}
