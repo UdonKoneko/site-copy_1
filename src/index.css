@@ -69,6 +69,7 @@ body section h2 {
 
 .Bicycle-container {
   margin-top: 20px;
+  display: flex;
 }
 
 .Bicycle-item img {
