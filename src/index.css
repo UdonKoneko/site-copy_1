@@ -66,3 +66,20 @@ body section h2 {
 .profile p {
   text-align: left;
 }
+
+.Bicycle-container {
+  margin-top: 20px;
+}
+
+.Bicycle-item img {
+  width: 100%;
+  height: auto;
+}
+
+.Bicycle-item:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.Bicycle-item_title {
+  font-weight: bold;
+}
