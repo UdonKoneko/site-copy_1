@@ -10,12 +10,14 @@ header {
   margin: 0px auto;
 }
 
-header button {
+.header-link-profile {
   background-color: #444444;
   color: white;
   border: none;
   padding: 5px 20px;
   font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .header-link {
