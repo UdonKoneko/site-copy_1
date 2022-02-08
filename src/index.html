@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="./index.css" />
+<script type="text/javascript" src="./index.js"></script>
 <meta
   name="viewport"
   content="width=device-width,initial-scale=1.0,user-scalable=no"
@@ -7,13 +8,19 @@
   <header class="container">
     <a href="/src/index.html" class="header-link-profile">Profile</a>
     <div class="header-link">
-      <a href="">About</a><a href="" class="header-bicycle">Bicycle</a>
+      <a href="javascript:void(0);" onclick="scrollwindow('about');">About</a
+      ><a
+        href="javascript:void(0);"
+        onclick="scrollwindow('bicycle');"
+        class="header-bicycle"
+        >Bicycle</a
+      >
     </div>
   </header>
   <body>
     <img class="img-top" src="../image/top_img.jpg" />
     <section>
-      <h2>About</h2>
+      <h2 id="about">About</h2>
       <div class="profile">
         <img class="img-profile" src="../image/profile_icon.jpg" />
         <div class="profile-text-container">
@@ -26,7 +33,7 @@
       </div>
     </section>
     <section>
-      <h2>Bicycle</h2>
+      <h2 id="bicycle">Bicycle</h2>
       <div class="Bicycle-container">
         <div class="Bicycle-item">
           <img src="../image/under_img_1.jpg" />
