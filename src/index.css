@@ -40,6 +40,7 @@ body {
   height: 700px;
   width: 100%;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 body section {
@@ -99,4 +100,29 @@ body section h2 {
 footer {
   text-align: center;
   font-size: small;
+}
+
+/* モバイル対応 */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .img-top {
+    height: 500px;
+  }
+
+  .profile,
+  .Bicycle-container {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .profile-text-container {
+    margin: 0px 10px;
+  }
+
+  .Bicycle-item {
+    margin: 10px;
+  }
 }
