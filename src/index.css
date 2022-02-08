@@ -1,12 +1,21 @@
-.container {
-  padding: 0px 150px;
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-header > button {
+.container {
+  padding: 0px 150px;
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+header button {
   background-color: #444444;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 5px 20px;
+  font-size: 20px;
 }
 
 .header-link {
