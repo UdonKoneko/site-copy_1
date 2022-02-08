@@ -22,10 +22,9 @@ header button {
   float: right;
 }
 
-.header-link > a {
+.header-link a {
   text-decoration: none;
   color: black;
-  font-size: small;
 }
 
 .header-bicycle {
@@ -39,7 +38,7 @@ body {
 .img-top {
   height: 700px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   object-fit: cover;
 }
 
